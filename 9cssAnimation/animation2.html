@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.box
+		{
+			width:200px;
+			height:200px;
+			background-color: orange;
+			text-align: center;
+			border:2px solid red;
+			position: relative;
+			animation:myani 5s infinite linear;
+			
+		}
+
+		@keyframes myani
+		{
+			0%{left:0px;top:0px;}
+			40%{left:1000px;top:0px;}
+			60%{left:1000px;top:500px;}
+			80%{left:500px;top:200px;border-radius: 100%;border:10px solid blue;}
+			90%{left:0px;top:500px;}
+			100%{left:0px;top:0px;}
+		}
+
+
+
+	</style>
+</head>
+<body>
+
+
+<div class="box">css animation</div>
+	
+</body>
+</html>

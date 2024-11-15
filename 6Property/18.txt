@@ -1,0 +1,21 @@
+--18 january
+
+CSS PROPERTY
+
+18) columns
+
+19) css variable
+ 1) define
+   --a:100px;
+ 2) call variable
+   var(--a)
+  :root
+
+20) border radius
+
+21) css shadow
+  1) box-shadow
+     drop shadow
+     inner shadow
+     multi border
+  2) text-shadow

@@ -1,0 +1,1 @@
+alert("Hi buddy, my page response is still not very good and it is one of my first web templates. I will be happy to hear your comments🤩" )

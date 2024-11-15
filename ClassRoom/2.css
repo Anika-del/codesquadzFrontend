@@ -1,0 +1,28 @@
+/* External css of 2.html file */
+
+h1{
+    color:green;
+}
+
+h2{
+    color: red;
+}
+
+p {background-color:hsl(120,100%,75%);} /* light green */
+
+h3 {color:hsl(120,60%,70%);} /* light green */
+
+button{
+    color: darkorchid;
+    background-color: hsl(120,100%,75%);
+}
+
+div{
+    color: rgb(100, 20, 228);
+    background-color: hsla(9, 100%, 64%, 0.8);
+}
+body{
+    /* background-color: rgb(255, 216, 204); */
+    /* color pekar------search on google */
+    background-color: #ffd8cc;  /*HEX value*/
+}

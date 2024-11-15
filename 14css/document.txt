@@ -1,0 +1,28 @@
+27-Feb-
+
+13) variable
+1) variable define
+--a:1200px
+2) variable call
+var(--a)
+14) css selectors
+1) *
+2) .class
+3) #id
+4) > child
+5) space  (all child)
+6) : pursudo
+: element
+:: class
+15) filter
+blur()
+
+
+
+28 feb---
+16) navbar(menu) design
+1) simple navbar
+2) dropdown navbar
+3) sub dropdown navbar
+4) side navbar
+5) mega navbar

@@ -1,0 +1,44 @@
+*
+{
+	margin:0 auto;
+	padding:0;
+}
+
+
+:root
+{
+	background-color:lightblue;
+	--w:1200px;
+	--h:auto;
+	--r:red;
+	/*filter: grayscale(70%);*/
+}
+
+.header
+{
+	width:var(--w);
+	height:var(--h);
+	background-color:orange;
+	border:2px solid var(--r);
+	display: flex;
+}
+/*body
+{
+	background-color:lightblue;
+}*/
+
+.header>section
+{
+	border:1px solid var(--r);
+	padding:10px;
+	flex:1;
+}
+.header>section:nth-child(2)
+{
+	flex:2.5;
+}
+.header>section>img
+{
+	width: 100%;
+	filter: grayscale(100%) blur(4px);
+}

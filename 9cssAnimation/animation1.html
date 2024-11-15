@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.box
+		{
+			width:200px;
+			height:200px;
+			background-color: orange;
+			text-align: center;
+			border:2px solid red;
+			/*animation-name:myani;
+			animation-duration: 1s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate;
+			animation-timing-function:linear;
+			animation-delay: 5s;*/
+			animation:myani 1s 3 linear alternate 1s;
+			animation-fill-mode: forwards;
+		}
+
+		@keyframes myani
+		{
+			from{}
+			to{margin-left:1000px;background-color:red; border-radius: 100%;}
+		}
+
+		
+
+	</style>
+</head>
+<body>
+
+
+<div class="box">css animation</div>
+	
+</body>
+</html>

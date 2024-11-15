@@ -1,0 +1,121 @@
+*{
+	margin:0 auto;
+	padding:0;
+}
+.menu
+{
+		width:100%;
+		height: 60px;
+		background-color:lightgray;
+}
+.menu ul
+{
+	list-style-type: none;
+	display: flex;
+	width: 600px;
+}
+.menu ul li
+{
+	flex:1;
+	height: 60px;
+	line-height: 60px;
+	/*border:1px solid red;*/
+	text-align: center;
+}
+
+.menu div
+{
+	width:100%;
+	height: 400px;
+	background-color:gray;
+	position: fixed;
+	left:0;
+	display: none;
+
+}
+
+.menu li:hover div
+{
+	display: block;
+}
+.menu li:hover
+{
+	background-color:gray;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.myservice
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+.myservice a
+{
+	width:15%;
+	height: auto;
+	padding:2px;
+	float:left;
+	color:white;
+	text-decoration: none;
+}
+.mycontact
+{
+	columns:8;
+}
+.mycontact a
+{
+	float:left;
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	color:white;
+	text-decoration: none;
+}
+/* end header------------------------------------------*/
+
+.second{
+	width: 1200px;
+	height: auto;
+	border:1px solid gray;
+	padding:20px;
+	box-sizing: border-box;
+	text-align: justify;
+	margin-top:50px;
+	columns:4;
+	column-gap: 30px;
+	column-rule: 2px dotted gray;
+}
+.second h1
+{
+	column-span: all;
+	padding-bottom: 40px;
+}
+.second p::first-letter
+{
+	color:red;
+	font-size: 50px;
+	font-weight: bolder;
+	font-family: arial black;
+	text-transform: uppercase;
+	float:left;
+	line-height: 40px;
+	margin-right: 10px;
+}
+.second img
+{
+	width: 100%;
+}
+
+.third
+{
+	columns: 3;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+--30 january
+
+23) css animation( duration must)
+1) animation
+1) @keyframes
+1) from{}  to{}
+2) 0%{}  100%{}
+2) transform
+rotate(20deg)
+scale(x,y)
+skew(20deg)
+translate(x,y)
+1) 2D(x,y)
+rotate(50deg)
+2) 3D(X,Y,Z)
+rotateY(20deg)
+rotateX(20deg)
+rotateZ(20deg)
+3) transition
+width
+height
+all
+--------------------------------------------------------
+24) background-attachment
+    scroll-behavior
+    clip-path
+
+--
+Regards
+Shashi Pandey
+9871672942

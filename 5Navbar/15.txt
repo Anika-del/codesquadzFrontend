@@ -1,0 +1,23 @@
+--17 january
+
+CSS MENU
+
+15) css logical property
+1) margin
+2) padding
+3) display
+4) float
+5) position
+
+16) filter
+
+17) width,height
+min-width
+max-width
+max-height
+min-height
+
+--
+Regards
+Shashi Pandey
+9871672942

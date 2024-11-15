@@ -1,0 +1,5 @@
+regular expression---
+
+
+
+https://www.bing.com/images/search?view=detailV2&ccid=1Vq%2bt46Q&id=544F2D584140B7B465532321F083655CC1FD6B72&thid=OIP.1Vq-t46Qepr0y61bXybDagHaFj&mediaurl=https%3a%2f%2fcloud.netlifyusercontent.com%2fassets%2f344dbf88-fdf9-42bb-adb4-46f01eedd629%2f433d5073-dab2-46fc-af65-1e730af69851%2fregex.gif&exph=377&expw=502&q=regular+expretion+in+js&simid=608036536550950912&FORM=IRPRST&ck=24E0BA24CA21AE558305E0C0DCD2FC5A&selectedIndex=34&itb=0&ajaxhist=0&ajaxserp=0

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*
+		{
+			margin:0 auto;
+			padding:0;
+		}
+		.slid
+		{
+			width:1200px;
+			height:400px;
+			overflow:hidden;
+			filter:invert(75%);
+		}
+		.slid>section
+		{
+			width:6000px;
+			height: 400px;
+			position: relative;
+			animation:myslid 10s infinite alternate ease-in-out;
+		}
+		.slid>section>img
+		{
+			width:1200px;
+			height: 400px;
+			float:left;
+		}
+		@keyframes myslid
+		{
+			0%{left:0px;}
+			20%{left:0px;}
+			25%{left:-1200px;}
+			40%{left:-1200px;}
+			45%{left:-2400px;}
+			60%{left:-2400px;}
+			65%{left:-3600px;}
+			80%{left:-3600px;}
+			85%{left:-4800px;}
+			100%{left:-4800px;}
+		}
+		p
+		{
+			user-select: none;
+		}
+		h1
+		{
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: bolder;
+			font-family: arial black;
+			font-size: 69px;
+			/*background:linear-gradient(red,green,blue,orange,pink);*/
+			color:transparent;
+			background-clip: text;
+			background-image:url('https://e1.pxfuel.com/desktop-wallpaper/768/484/desktop-wallpaper-foggy-lake.jpg');
+			background-size: 100% 100%;
+		}
+		
+	</style>
+</head>
+<body>
+
+<div class="slid">
+	<section>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUtyzr1mRTzCJZi-sAndsmyzYiok7AtBTFi7vYRXm_pFMpktXdEt2RI6InSvCbtgInRn0&usqp=CAU">
+		<img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg">
+		<img src="https://img.freepik.com/premium-photo/frozen-fiord-surrounded-by-majestic-mountains-evergreen-forests-with-mysterious-blue-hue_124507-89757.jpg">
+		<img src="https://img.freepik.com/premium-photo/serene-mountain-lake-surrounded-by-pine-trees-realistic-hyperdetailed-rendering_899449-32271.jpg">
+		<img src="https://e1.pxfuel.com/desktop-wallpaper/768/484/desktop-wallpaper-foggy-lake.jpg">
+	</section>
+</div>
+
+<p>SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.SBI's internet banking portal provides personal banking services that gives you complete control over all your banking demands online.</p>
+
+<h1>use of css background clip</h1>
+<pre>
+filter: blur(5px);
+filter: brightness(0.4);
+filter: contrast(200%);
+filter: drop-shadow(16px 16px 20px blue);
+filter: grayscale(50%);
+filter: hue-rotate(90deg);
+filter: invert(75%);
+filter: opacity(25%);
+filter: saturate(30%);
+filter: sepia(60%);
+</pre>
+
+
+	
+</body>
+</html>

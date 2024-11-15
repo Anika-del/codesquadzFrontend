@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+	</style>
+	<style>
+		
+		div
+		{
+			width:1200px;
+			border:1px solid red;
+			display: grid;
+			margin:0 auto;
+			padding:0;
+			grid-template-columns: 400px 400px 400px;
+			grid-template-rows: 100px 200px 200px 100px auto;
+		}
+		div section
+		{
+			border:1px solid red;
+			padding:10px;
+			margin:5px;
+		}
+		div>section:nth-child(1),div>section:nth-child(6)
+		{
+			grid-column-start: 1;
+			grid-column-end: 4;
+		}
+		div>section:nth-child(2)
+		{
+			grid-row-start: 2;
+			grid-row-end: 4;
+		}
+		div>section:nth-child(3)
+		{
+			grid-column-start: 2;
+			grid-column-end: 4;
+		}
+		
+	</style>
+</head>
+<body>
+
+
+<div>
+	<section>box1</section>
+	<section>box2</section>
+	<section>box3</section>
+	<section>box4</section>
+	<section>box5</section>
+	<section>box6</section>
+</div>
+
+	
+</body>
+</html>

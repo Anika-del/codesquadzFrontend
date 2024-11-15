@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+
+		div
+		{
+			width:1200px;
+			height: auto;
+			border:1px solid red;
+			display: grid;
+			margin:0 auto;
+			padding:0;
+			grid-template-columns: 200px 250px 150px 300px 300px;
+			grid-template-rows: 150px 100px 80px 200px 200px 400px 100px auto; 
+		}
+		div>section
+		{
+			border:1px solid blue;
+			padding:10px;
+			margin:5px;
+		}
+		div>section:nth-child(1)
+		{
+			grid-row-start: 1;
+			grid-row-end: 3;
+			background-color:green;																						
+		}
+		div>section:nth-child(2)
+		{
+			grid-column-start:2;
+			grid-column-end: 4;
+			background-color:blue;																						
+		}
+		.footer
+		{
+			grid-column-start: 1;
+			grid-column-end: 6;
+		}
+	</style>
+</head>
+<body>
+
+<div>
+	<section>box1</section>
+	<section>box2</section>
+	<section>box3</section>
+	<section>box4</section>
+	<section>box5</section>
+	<section>box6</section>
+	<section>box7</section>
+	<section>box8</section>
+	<section>boxgggfddd9</section>
+	<section>box10</section>
+	<section>box10</section>
+	<section>box10</section>
+	<section>box10</section>
+	<section class="footer">box10</section>
+	<section class="footer">box10</section>
+	<section class="footer">box10</section>
+</div>
+
+	
+</body>
+</html>

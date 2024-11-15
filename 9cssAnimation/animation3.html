@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.box
+		{
+			width:200px;
+			height:200px;
+			background-color: orange;
+			text-align: center;
+			border:2px solid red;
+			animation:myani 2s infinite linear;
+		}
+
+		@keyframes myani
+		{
+			from{}
+			to{transform:rotate(360deg);}
+		}
+
+
+		
+		.box:hover
+		{
+			animation:myani1 2s infinite linear;
+		}
+
+		@keyframes myani1
+		{
+			from{}
+			to{transform:rotate(-360deg);}
+		}
+
+
+		
+
+
+	</style>
+</head>
+<body>
+
+
+<div class="box">css animation</div>
+	
+</body>
+</html>

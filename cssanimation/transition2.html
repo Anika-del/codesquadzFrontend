@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		.first
+		{
+			width:200px;
+			height: 200px;
+			text-align: center;
+			border:2px solid red;
+			background-color: green;
+			transition-duration: 500ms;
+			position: absolute;
+			z-index: 1;
+		}
+		.first:hover
+		{
+			transform:rotate(50deg);
+			transition-duration: 1s;
+
+		}
+		*{
+			margin:0 auto;
+			padding:0;
+		}
+		ul
+		{
+			list-style: none;
+			background-color: lightgray;
+			height: 50px;
+			display: flex;
+			width: 100%;
+			position: fixed;
+			top:0;
+		}
+		ul li
+		{
+			flex:1;
+			background-color: orange;
+			color:white;
+			text-align: center;
+			border:1px solid red;
+			line-height: 50px;	
+			transition-duration: 500ms;	
+			position: relative;
+		}
+		ul li:hover
+		{
+			z-index: 1;
+			transform:translate(0px, 10px) scale(1.2,1.2) rotate(10deg);
+			background-color: red;
+			transition-duration: 500ms;
+		}
+		div
+		{
+			height: 500px;
+			width:100%;
+
+		}
+	</style>
+</head>
+<body>
+
+<div class="first">use of transition</div>
+<ul>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+</ul>
+<div> first</div>
+<div> first</div>
+
+<div> first</div>
+<div> first</div>
+
+
+
+	
+</body>
+</html>

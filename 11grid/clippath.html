@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+	</style>
+	<style>
+		*{
+			margin:0 auto;
+			padding:0;
+		}
+		.main
+		{
+			width:1200px;
+			height:500px;
+			border:1px solid red;
+			background:linear-gradient(orange,blue);
+			/*clip-path: polygon(0px 0px,600px 500px,0px 500px);*/
+		}
+		.main>section
+		{
+			width:1200px;
+			height:500px;
+			background-image:url('https://wallpapers.com/images/featured/beautiful-3vau5vtfa3qn7k8v.jpg');
+			background-size: 100% 100%;
+			clip-path: polygon(0px 0px,1100px 0px,600px 500px,0px 500px);
+			
+		}
+		.main>header
+		{
+			width:1200px;
+			height:500px;
+			background-color:rgba(0,0,0,0.1);
+			position: absolute;
+			z-index: 1;
+			color:white;
+			font-weight: bolder;
+			font-size: 40px;
+			text-align: center;
+			padding:50px;
+			box-sizing: border-box;
+		}
+		.main>header ul
+		{
+			list-style-type: none;
+			font-size: 20px;
+			text-transform: uppercase;
+			color:black;
+			display: flex;
+			height:200px;
+			width: 600px;
+			margin-top:50px;
+		}
+		.main>header ul li
+		{
+			flex:1;
+			background-color:white;
+			transition-duration: 500ms;
+
+		}
+		.main>header ul li:hover
+		{
+			background-color:blue;
+			transform:scale(1.1,1.1);
+			transition-duration: 500ms;
+		}
+		
+	</style>
+</head>
+<body>
+
+
+<div class="main">
+	<header>
+		<h1>use of Clip path in css</h1>
+		<ul>
+			<li>
+				<i class="fa fa-calculator"></i>
+				<h3>rate & ship</h3>
+			</li>
+			<li>
+				<i class="fa fa-calculator"></i>
+				<h3>rate & ship</h3>
+			</li>
+			<li>
+				<i class="fa fa-calculator"></i>
+				<h3>rate & ship</h3>
+			</li>
+		</ul>
+	</header>
+	<section>
+		
+	</section>
+	
+</div>
+
+
+	
+</body>
+</html>

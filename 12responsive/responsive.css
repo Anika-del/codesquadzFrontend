@@ -1,0 +1,214 @@
+*
+{
+	margin:0 auto;
+	padding:0;
+}
+body
+{
+	user-select: none;
+}
+
+.row
+{
+	width:1200px;
+	min-height: 40px;
+	max-height: auto;
+	display: flex;
+}
+.row section
+{
+	flex:1;
+	/*border:1px solid red;*/
+	padding:5px;
+
+}
+.bg
+{
+	background-color:black;
+	color:white;
+}
+.row ul
+{
+	list-style-type: none;
+	display: flex;
+	width: 200px;
+	max-width: 500px;
+}
+.row ul>li
+{
+	flex:1;
+}
+.row a
+{
+	color:white;
+	text-decoration: none;
+}
+
+.left
+{
+	margin-left:0;
+}
+.right{
+	margin-right:0;
+}
+.menu
+{
+	width: 400px !important;
+}
+.bg1
+{
+	background-color:lightgray;
+}
+.mypost
+{
+	height: auto;
+}
+.mypost>section:first-child
+{
+	flex:2;
+}
+.service
+{
+	width:100%;
+	height: auto;
+	/*border:1px solid red;*/
+	display: flex;
+	flex-wrap: wrap;
+}
+.service>main
+{
+	width:45%;
+	height: auto;
+	/*border:1px solid red;*/
+	padding:10px;
+	text-align: center;
+}
+:root
+{
+	background-color:lightgray;
+}
+
+.profil
+{
+	text-align: center;
+	border:1px solid black;
+}
+.onlyprint
+	{
+		display: none;
+		width: 100%;
+	}
+
+
+
+
+@media (max-width:900px)
+{
+	:root
+	{
+		background-color:blue;
+	}
+	.profil,.head
+	{
+		display: none;
+	}
+	.service>main
+	{
+		width:23% !important;
+	}
+
+}
+
+
+
+
+@media (max-width:700px)
+{
+	:root
+	{
+		background-color:green;
+	}
+	.service>main
+	{
+		width:45% !important;
+	}
+
+	
+
+}
+
+@media (max-width:500px)
+{
+	:root
+	{
+		background-color:black;
+		color:white;
+	}
+	.service
+	{
+		 flex-direction: column;
+	}
+	.service>main
+	{
+		height: 300px;
+		width: 100% !important;
+		background-color:pink;
+		box-sizing: border-box;
+		margin-top:10px;
+	}
+	.row
+	{
+		width:100%;
+	}
+	.hd
+	{
+		display: none;
+	}
+	.profil
+	{
+		display: block;
+	}
+	.mypost
+	{
+		display: block;
+	}
+
+
+}
+
+
+
+@media print
+{
+	@page
+	{
+		size: A4 portrait;
+	}
+	.row
+	{
+		width:100% !important;
+	}
+	.bg1
+	{
+		display: none;
+	}
+	.service
+	{
+		display: block;
+	}
+	.service>main
+	{
+		page-break-after: always;
+		width: 700px !important;
+		height: 1000px;
+		border:1px solid black;
+	}
+	.onlyprint
+	{
+		display: block;
+	}
+	/*body
+	{
+		display: none;
+	}*/
+}

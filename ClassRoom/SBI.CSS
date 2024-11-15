@@ -1,0 +1,78 @@
+*body {
+    margin: auto;
+    padding: 0;
+    color: white;
+    width: 100%;
+}
+
+#header {
+    overflow: hidden;
+    position: relative;
+}
+
+.logo{
+    position: relative;
+    top: 5%;
+    /* width: 100%; */
+    text-align: left;
+    margin-top: 0px 
+}
+
+
+/* navbar css */
+/* Add a black background color to the top navigation */
+.navbar {
+    background-color: #044a9a;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-left: 1px solid rgb(50, 172, 237);
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    background-color: #0654ae;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  /* .navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+
+
+  /* text */
+.text{
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 5px 
+    width: 100%;
+}
+  .textp {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    
+}
+.c{
+    color: red;
+    display: block;
+    text-align: center;
+    word-spacing: 4px;
+}
+.c1{
+    color: #044a9a;
+    display: block;
+    text-align: center;
+    word-spacing: 5px;
+
+}

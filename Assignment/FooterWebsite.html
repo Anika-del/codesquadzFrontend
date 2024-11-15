@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Dynamic footer</title>
+                
+                <style>
+                                footer{
+                                                position: fixed;
+                                                bottom: 0;
+                                                left:0;
+                                                right:0;
+                                                background:#2e3b53;
+                                                color: white;
+                                                width:100%;
+                                                padding:20px 10px;
+                                                text-align: center;
+                                                
+                                }
+h1{
+    text-transform:uppercase;
+    color:white;
+}
+body{
+    background:#3b5998;
+}
+                </style>
+</head>
+<body>
+<h1>This year changes every year</h1>
+                <footer>&copy; BryandChe 2021. All rights reserved</footer>
+                
+                <script>
+                                
+                            var     year = new Date().getFullYear();
+                            
+                            var footer = `&copy; BryandChe ${year}. All rights reserved`;
+                            
+                            document.getElementsByTagName("footer")[0].innerHTML = footer;
+                            
+                            
+                            
+                            
+                            //LOGIC TO CHANGE BACKGROUND
+footer = document.getElementsByTagName("footer")[0];
+var color = "#";
+const colors =[ "a","b","c","d","e","f",0,1,2,3,4,5,6,7,8,9];
+                            setInterval(getColor,2000);
+                            function getColor(){
+       color = "#";
+                   for(let i=0; i<6;i++){
+                               let    random = Math.floor(Math.random()*colors.length);
+                               color += colors[random];
+                               
+                               
+                   }
+                   
+                   footer.style.backgroundColor = color;
+   
+   }
+  
+                </script>
+</body>
+</html>

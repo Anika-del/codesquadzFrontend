@@ -1,0 +1,80 @@
+*
+	{
+		margin:0 auto;
+		padding:0;
+	}
+	.nav
+	{
+		width:1200px;
+		height: 50px;
+		background-color:lightgray;
+		display: flex;
+		align-items: center;
+	}
+	.nav>div
+	{
+		/*border:1px solid red;*/
+		padding:5px;
+		flex:1;
+		text-align: center;
+	}
+	.nav>div:nth-child(2)
+	{
+		flex:2;
+	}
+	.menu
+	{
+		list-style-type: none;
+		display: flex;
+	
+	}
+	.menu li
+	{
+		/*border:1px solid red;*/
+		flex:1;
+		text-align: center;
+		display: inline;
+		float: left;
+	}
+	
+
+
+
+/*--------------------- Background image 2nd section-----------------------------*/
+.back_img
+		{
+			width:1200px;
+			height: 300px;
+			
+			/*background image use*/
+				background-image:url('anikkk.jpeg');
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: 100% 100%;
+				background-size: cover;
+			}
+
+			.back_img>h2
+		{
+			font-size: 30px;
+			padding:80px;
+			text-shadow: 2px 2px 2px black;
+            text-align:start; 
+			/* text-decoration-style: Bold Oblique; */
+			color: #4df43d;
+		}
+		.back_img>h6
+		{
+			font-size: 10px;
+			padding:10px;
+			text-shadow: 2px 2px 2px black;
+            text-align:start; 
+			/* text-decoration-style: Bold Oblique; */
+			color: #f1f6f1;
+			font-family: arial black;
+
+		}
+
+
+
+		

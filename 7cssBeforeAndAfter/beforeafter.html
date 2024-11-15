@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+	</style>
+	<style>
+		h1
+		{
+			color:red;
+			text-align: center;
+		}
+		h1::before
+		{
+			content: "computer";
+			color:green;
+			margin-right:10px;
+		}
+		h1::after
+		{
+			content: "education";
+			color:blue;
+
+		}
+		ul
+		{
+			list-style-type: none;
+		}
+		ul li
+		{
+			line-height: 40px;
+		}
+		ul li::before
+		{
+			content: "______\261B";
+			color:red;
+			margin-right: 5px;
+			font-size: 40px;
+		}
+		#mytooltip
+		{
+			width:400px;
+			height:100px;
+			background-color:black;
+			color:white;
+			padding: 10px;
+			display: inline-block;
+			border-radius: 10px;
+			display: none;
+		}
+		#mytooltip::after
+		{
+			content: "";
+			width:0px;
+			height: 0px;
+			/*background-color:orange;*/
+			position: absolute;
+		    border-left: 19px solid black;
+		    border-right: 0px solid blue;
+		    border-top: 17px solid transparent;
+		    border-bottom: 8px solid transparent;
+		    margin-left: 23px;
+		    margin-top: 33px;
+		}
+		.fa:hover + #mytooltip
+		{
+			display: block;
+		}
+		input:checked + #mytooltip
+		{
+			display: block;
+		}
+
+
+	</style>
+</head>
+<body>
+
+<i class="fa fa-info-circle "></i>
+<input type="checkbox">
+<span id="mytooltip">
+	he World Wide Web is an information system that enables content sharing over the Internet through user-friendly ways
+</span>
+<h1>heading one</h1>
+
+<ul>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+	<li>Home</li>
+</ul>
+
+
+
+	
+</body>
+</html>

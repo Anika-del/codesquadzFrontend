@@ -1,0 +1,27 @@
+body{
+
+}
+
+.aa{
+    background-color: aquamarine;
+    display: block;
+    font-size: 0.83em;
+    /* margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 5px;
+    margin-inline-end: 10px; */
+    font-size: 1rem;
+    font-weight: bold;
+}
+#th{
+
+    color: orange;
+}
+th{
+    color: green;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    background: #8b7c32;
+}

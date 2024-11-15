@@ -1,0 +1,155 @@
+*
+{
+	margin:0 auto;
+	padding:0;
+}
+.nav
+{
+	width:1200px;
+	height: 50px;
+	background-color:lightgray;
+	display: flex;
+	align-items: center;
+}
+.nav>div
+{
+	/*border:1px solid red;*/
+	padding:5px;
+	flex:1;
+	text-align: center;
+}
+.nav>div:nth-child(2)
+{
+	flex:2;
+}
+.menu
+{
+	list-style-type: none;
+	display: flex;
+
+}
+.menu li
+{
+	/*border:1px solid red;*/
+	flex:1;
+	text-align: center;
+}
+.menu a
+{
+	color:white;
+	text-decoration: none;
+}
+.menu a:hover
+{
+	color:red;
+}
+
+/*--------------------- create dropdown navbar-----------------------------*/
+
+.drop
+{
+	width: 1200px;
+	height: 60px;
+	background-color:skyblue;
+	margin-top:30px;
+}
+.drop ul
+{
+	list-style-type: none;
+}
+.drop ul li
+{
+	width:200px;
+	height: 60px;
+	border:1px solid red;
+	text-align: center;
+	line-height: 60px;
+	float:left;
+}
+.drop a
+{
+	color:white;
+	background-color:orange;
+	width: 100%;
+	height: 60px;
+	float: left;
+}
+.drop ul li ul
+{
+	display: none;
+}
+.drop ul li:hover ul
+{
+	display: block;
+}
+.drop a:hover
+{
+	background-color: blue;
+
+}
+
+
+
+/* --------------sub dropdown navbar--------------------------*/
+.subdrop
+{
+	width: 1200px;
+	height: 60px;
+	background-color:orange;
+	margin-top:30px;
+}
+.subdrop ul
+{
+	list-style-type: none;
+}
+.subdrop ul li
+{
+	width:200px;
+	height: 60px;
+	border:1px solid red;
+	text-align: center;
+	line-height: 60px;
+	float:left;
+}
+.subdrop a
+{
+	color:white;
+	background:linear-gradient(red,orange);
+	width: 100%;
+	height: 60px;
+	float: left;
+}
+
+.subdrop ul li ul li ul
+{
+	margin-left: 200px;
+}
+.subdrop ul li ul
+{
+	display: none;
+}
+.subdrop ul li:hover ul
+{
+	display: block;
+}
+.subdrop ul li:hover ul li ul
+{
+	display: none;
+}
+.subdrop ul li ul li:hover ul
+{
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

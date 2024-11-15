@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin:0 auto;
+			padding:0;
+		}
+		p
+		{
+			text-align: center;
+			animation:mytext1 800ms infinite linear alternate;
+			font-size: 15px;
+			font-weight: bold;
+		}
+
+		.top
+		{
+			height: 100px;
+		}
+
+			@keyframes mytext
+			{
+				from{}
+				to{ color:red;font-size: 15px;font-weight: bolder; }
+			}
+
+			@keyframes mytext1
+			{
+				0%{color:red;}
+				40%{color:blue;}
+				80%{color:orange;}
+				100%{color:green;}
+			}
+
+			.abc
+			{
+				color:orange;
+				font-weight: bolder;
+				animation:abcd 1s infinite alternate;
+			}
+
+			@keyframes abcd
+			{
+				from{}
+				to{color:blue;font-size: 30px;}
+			}
+
+
+	ul
+	{
+		list-style-type: none;
+		position: fixed;
+		top:30px;
+		right:-210px;
+		z-index: 2;
+	}
+	ul li
+	{
+		width:250px;
+		height:50px;
+		border:1px solid gray;
+		display: flex;
+		padding:5px;
+		background-color:lightgray;
+		align-items: center;
+		transition-duration: 1s;
+	}
+	ul li section
+	{
+		flex:1;
+		/*border:1px solid red;*/
+
+	}
+	ul img
+	{
+		width:40px;
+	}
+	ul li section:last-child
+	{
+		flex:4;
+	}
+
+	ul li:hover
+	{
+		transform:translate(-200px,0);
+		transition-duration: 500ms;
+	}
+
+header
+{
+	width:1200px;
+	height:400px;
+	border:1px solid red;
+	overflow:hidden;
+}
+header>section
+{
+	width:6000px;
+	height:400px;
+	position: relative;
+	animation:mygallery 10s infinite alternate ease-in-out;
+}
+header>section>img
+{
+	width:1200px;
+	height:400px;
+	float:left;
+}
+
+@keyframes mygallery
+{
+	0%{left:0px;}
+	20%{left:0px;}
+	25%{left:-1200px;}
+	40%{left:-1200px;}
+	45%{left:-2400px;}
+	60%{left:-2400px;}
+	65%{left:-3600px;}
+	80%{left:-3600px;}
+	85%{left:-4800px;}
+	100%{left:-4800px;}
+}
+
+
+	</style>
+</head>
+<body>
+<div class="top">	
+<p>Web 2.0 (also known as participative (or participatory) web and social web)<br> refers to websites that emphasize user-generated content, ease of use, <span class="abc">participatory</span> culture and interoperability (i.e., compatibility with other<br> products, systems, and devices) for end users.</p>
+</div>
+<ul>
+	<li>
+		<section>
+			<img src="https://static-00.iconduck.com/assets.00/facebook-icon-512x512-seb542ju.png">
+		</section>
+		<section>
+			<a href="#">facebook online</a><br>
+			<a href="#">facebook online page</a>
+		</section>
+	</li>
+	<li>
+		<section>
+			<img src="https://static-00.iconduck.com/assets.00/facebook-icon-512x512-seb542ju.png">
+		</section>
+		<section>
+			<a href="#">facebook online</a><br>
+			<a href="#">facebook online page</a>
+		</section>
+	</li>
+	<li>
+		<section>
+			<img src="https://static-00.iconduck.com/assets.00/facebook-icon-512x512-seb542ju.png">
+		</section>
+		<section>
+			<a href="#">facebook online</a><br>
+			<a href="#">facebook online page</a>
+		</section>
+	</li>
+	<li>
+		<section>
+			<img src="https://static-00.iconduck.com/assets.00/facebook-icon-512x512-seb542ju.png">
+		</section>
+		<section>
+			<a href="#">facebook online</a><br>
+			<a href="#">facebook online page</a>
+		</section>
+	</li>
+</ul>
+
+
+<header>
+	<section>
+			<img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" alt="">
+			<img src="https://img.freepik.com/free-photo/snowy-mountain-peak-starry-galaxy-majesty-generative-ai_188544-9650.jpg" alt="">
+			<img src="https://images.wallpapersden.com/image/download/a-new-planet-4k-sunrise_bmZpaGWUmZqaraWkpJRobWllrWdmamc.jpg" alt="">
+			<img src="https://wallpapers.com/images/featured/beautiful-3vau5vtfa3qn7k8v.jpg" alt="">
+			<img src="https://www.shutterstock.com/image-photo/mountain-wallpaper-canyon-rock-landscape-260nw-2322781601.jpg" alt="">
+	</section>
+</header>
+
+
+
+
+
+
+</body>
+</html>
